@@ -1,0 +1,193 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: "Poppins", sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.header{
+
+ }
+/*Global css code starts here*/
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+/*Global css code ends here*/
+
+/*Header css code ends here*/
+.header{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eee;	
+}
+.logo{
+	display: block;
+}
+.Menu{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.Menu li{
+	list-style: none;
+	display: inline-block;
+}
+.Menu li a{
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: capitalize;
+	color: #79859F ;
+	margin: 10px 0px 0px 35px ;
+}
+/*Header css code ends here*/
+
+/*Banner css code starts here*/
+.banner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	text-align: center;
+}
+.banner h1{
+	font-size: 60px;
+	line-height: 70px;
+	color: #0F2656;
+	margin: 0px 0px 10px;
+}
+.banner h1 span{
+	color: #008AFF;
+}
+.banner p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #9FA8BC;
+	margin: 0px 0px 10px;
+}
+.banner img{
+	width: 70%;
+}
+/*Banner css code ends here*/
+
+/*successful css code starts here*/
+
+.successful{
+	width: 100%;
+	float: left;
+	padding: 0px 0px 80px;
+}
+.left-success{
+	width: 95%;
+	float: left;
+	text-align: right;
+	margin: 0px 15px;
+}
+
+.left-success h1{
+	font-size: 60px;
+	line-height: 70px;
+	color: #F15767;
+	margin: 0px 0px 10px;
+}
+.left-success p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #494D8B;
+	margin: 0px 0px 10px;
+}
+.right-success{
+	width: 95%;
+	float: left;
+	margin: 0px 15px;
+}
+.right-success h1{
+	font-size: 60px;
+	line-height: 70px;
+	color: #0F2656;
+	margin: 0px 0px 10px;
+}
+/*successful css code ends here*/
+
+/*feature css code starts here*/
+
+.feature-inner{
+	width:80%;
+	float: left;
+	padding: 40px 25px;
+}
+
+.feature-inner img{
+	width: 100%;
+	height: 200px;
+	margin: 0px 0px 10px;
+}
+.feature-inner h4{
+	font-size: 22px;
+	line-height: 32px;
+	color: #3D3847;
+	margin: 0px 0px 10px;
+}
+.feature-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #9FA8BC;
+	margin: 0px 0px 10px;
+}
+.bg-1{
+	background: #FEEBED;
+}
+.bg-2{
+	background: #EAF9F4;
+}
+.bg-3{
+	background: #FFF8E8;
+}
+/*feature css code ends here*/
+
+/*footer css code starts here*/
+
+.footer{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+	background: #008AFF;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+}
+.footer p span{
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+/*footer css code ends here*/

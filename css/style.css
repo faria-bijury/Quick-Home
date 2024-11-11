@@ -137,6 +137,11 @@ a, a:hover{
 
 /*feature css code starts here*/
 
+.feature{
+	width: 100%;
+	float: left;
+	padding: 0px 0px 80px;
+}
 .feature-inner{
 	width:80%;
 	float: left;
